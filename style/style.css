@@ -12,7 +12,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 50px 150px;
   
 }
 

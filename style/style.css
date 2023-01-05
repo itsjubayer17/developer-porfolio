@@ -7,6 +7,7 @@
     background-image: url(../images/header_bg.png) ,url(../images/developer.png);
     background-repeat:  no-repeat;
     background-position: bottom right,left;
+    margin-bottom: 130px;
 }
 nav{
     display: flex;
@@ -38,6 +39,7 @@ nav li{
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
+
 }
 .navtitle{
     width: 120px;
@@ -87,5 +89,186 @@ nav li{
     font-size: 20px;
     font-weight: 700;
     margin-left: 10px;
+}
+
+/* about me  */
+main{
+    max-width: 1140px;
+    max-height: 550;
+    margin: 0 auto;
 
 }
+
+.about-me{
+        background-color:#FFF8F3;
+        padding: 131px 156px;
+        text-align: center;
+        margin-bottom: 50px;
+}
+.section-title{
+        font-size: 35px;
+        margin-bottom: 30px;        
+}
+.section-description{
+        font-size: 18px;
+        color: #757575;
+        margin-bottom: 30px;   
+             
+}   
+.about-info-portfolio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    font-size: 20px;
+    color: #757575;
+}
+.info{
+    color: #474747;
+    font-weight: 700;
+}
+
+/* what i do  */
+
+.whatido{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.whatido-title{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.whatido-disciption{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.continer-specility{
+    display: flex;
+    gap: 24px;
+}
+.specility{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.icon{
+    margin-bottom: 30px;
+}
+.speciality-name{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.speciality-disciption{
+    font-size: 16px;
+    color: #757575;
+    width: 201px;
+    height: 196px;
+    
+}
+
+/* resume */
+.resume{
+
+}
+.resum-title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 113px;
+    color: #181818;
+}
+.assets{
+    display: flex;
+    gap: 71px;
+}
+.qualification-title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.qualification-name{
+    margin-bottom: 60px;
+    width: 511px;
+    height: 175px;
+    border-bottom: 1px solid #D1D1D1;
+}
+.master{
+    margin-bottom: 10px;
+    color:#474747;
+    font-size: 25px;
+}
+.adobe{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.listskill{
+    font-size: 16px;
+    color: #757575;
+}
+.rusume-btn{
+    /* margin: 0 auto; */
+    /* left: 700px; */
+    text-align: center;
+    margin-bottom: 113px;
+    
+}
+
+/* footer */
+
+.footer{
+    
+    margin: 0 auto;
+    background-color: #FFF8F3;
+}
+
+.footerarea{
+    max-width: 1140px;
+    max-height: 550;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+    
+    
+}
+.connect-tittle{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+    margin-top: 130px;
+    text-align: left;
+}
+.connect-description{
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 32px;
+    width: 562px;
+height: 56px;
+}
+.link-icon{
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 0;
+}
+.form-style{
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    padding: 9px 30px;
+    border: none;   
+    border-radius: 5px; 
+}
+#textarea{
+    margin-bottom: 24px;
+    padding: 9px 30px;
+    border: none;   
+    width: 461px;
+    height: 180px;
+    border-radius: 5px; 
+}
+ 
